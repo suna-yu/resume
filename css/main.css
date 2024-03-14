@@ -1,0 +1,1707 @@
+.pc,
+.pc * {
+  box-sizing: border-box;
+}
+.pc {
+  background: #ffffff;
+  height: 685.3rem;
+  position: relative;
+  overflow-y: auto;
+}
+.div {
+  background: var(--text-gray3, #3d3d3d);
+  width: 192rem;
+  height: 32.9rem;
+  position: absolute;
+  left: 0rem;
+  top: 652.4rem;
+  overflow: hidden;
+}
+.div2 {
+  background: var(--bgcolor-gray6, #f3f4f6);
+  width: 192rem;
+  height: 84rem;
+  position: absolute;
+  left: 0rem;
+  top: 568.4rem;
+  overflow: hidden;
+}
+.inner {
+  width: 139.7rem;
+  height: 58.7rem;
+  position: absolute;
+  left: calc(50% - 69.7rem);
+  top: 0rem;
+  overflow: hidden;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.essential-business-stationery-mockup-preview-387-x-218 {
+  border-radius: 1rem;
+  width: 50.1rem;
+  height: 28.2rem;
+  position: absolute;
+  left: 44.9rem;
+  top: 14.3rem;
+  object-fit: cover;
+}
+.rectangle-2 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 1.5rem;
+  width: 35.5rem;
+  height: 10.5rem;
+  position: absolute;
+  left: 52.2rem;
+  top: 37.2rem;
+}
+.div3 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 62.9rem;
+  top: 40.6rem;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+._5-c-03-f-065-bfd-56-e-265-ebfafc-6-preview-copy-387-x-218 {
+  border-radius: 1rem;
+  width: 50.1rem;
+  height: 28.2rem;
+  position: absolute;
+  left: -16.4rem;
+  top: 14.3rem;
+  object-fit: cover;
+}
+.rectangle-3 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 1.5rem;
+  width: 35.5rem;
+  height: 10.5rem;
+  position: absolute;
+  left: -9rem;
+  top: 37.2rem;
+}
+.div4 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 5.1rem;
+  top: 40.6rem;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+._5-q-71-up-9-s-387-x-218 {
+  border-radius: 1rem;
+  width: 50.1rem;
+  height: 28.2rem;
+  position: absolute;
+  left: 106.1rem;
+  top: 14.3rem;
+  object-fit: cover;
+}
+.rectangle-22 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 1.5rem;
+  width: 35.5rem;
+  height: 10.5rem;
+  position: absolute;
+  left: 113.4rem;
+  top: 37.2rem;
+}
+._3 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 126.6rem;
+  top: 40.6rem;
+}
+.div5 {
+  height: auto;
+  position: absolute;
+  left: 63.2rem;
+  top: 51.8rem;
+  overflow: visible;
+}
+.design {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h3-font-size, 4.7rem);
+  line-height: var(--h3-line-height, 175%);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: 62.5rem;
+  top: 3.2rem;
+}
+.div6 {
+  background: var(--bgcolor-hue2, #527ceb);
+  border-radius: 1.5rem;
+  width: 117.9rem;
+  height: 42.2rem;
+  position: absolute;
+  left: calc(50% - 59.1rem);
+  top: 627.2rem;
+  overflow: hidden;
+}
+.contact {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h3-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h3-font-size, 4.7rem);
+  line-height: var(--h3-line-height, 175%);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: 45rem;
+  top: 2.9rem;
+}
+.div7 {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h4-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h4-font-size, 3.6rem);
+  line-height: var(--h4-line-height, 175%);
+  font-weight: var(--h4-font-weight, 400);
+  position: absolute;
+  left: 24rem;
+  top: 11.1rem;
+}
+.group-24 {
+  position: absolute;
+  inset: 0;
+}
+.div8 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 51.1rem;
+  top: 26.2rem;
+  box-shadow: var(
+    --shadow1-box-shadow,
+    0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25)
+  );
+}
+.frame-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._010-2361-6664 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: relative;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 3.3rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.suna-99-yu-naver-com {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: relative;
+}
+.ph-phone-fill {
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  left: 44.1rem;
+  top: 26.9rem;
+  overflow: visible;
+}
+.solar-letter-bold {
+  width: 3.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 44.1rem;
+  top: 32.4rem;
+  overflow: visible;
+}
+._1 {
+  background: #ffffff;
+  width: 192rem;
+  height: 70rem;
+  position: absolute;
+  left: 0rem;
+  top: 498.4rem;
+  overflow: hidden;
+}
+.div9 {
+  border-radius: 1.5rem;
+  width: 70.8rem;
+  height: 39.1rem;
+  position: absolute;
+  left: 37.9rem;
+  top: 16.5rem;
+  object-fit: cover;
+}
+.icon-hover {
+  width: 5.6rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 106rem;
+  top: 32.7rem;
+}
+.icon-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.ellipse-43 {
+  background: var(--text-hue1, #fd346e);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.icon-meterial {
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  left: calc(50% - 1.8rem);
+  top: calc(50% - 1.8rem);
+  overflow: visible;
+}
+.team-project {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h3-font-size, 4.7rem);
+  line-height: var(--h3-line-height, 175%);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: 81.3rem;
+  top: 4.8rem;
+  width: 30.3rem;
+}
+.b-2-b-ui-ux {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 121rem;
+  top: 31.8rem;
+  width: 44.6rem;
+}
+._2 {
+  color: var(--text-hue1, #fd346e);
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 121rem;
+  top: 48.6rem;
+}
+._33 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 120.5rem;
+  top: 52.3rem;
+}
+.div10 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h2-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h2-font-size, 6.1rem);
+  line-height: var(--h2-line-height, 175%);
+  font-weight: var(--h2-font-weight, 700);
+  position: absolute;
+  left: 120.5rem;
+  top: 14.5rem;
+  width: 40.042rem;
+}
+.goole-sulvey-figma {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 120.5rem;
+  top: 25.2rem;
+  width: 36.937rem;
+}
+.defalt-bg {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 73.3rem;
+  top: 59.1rem;
+}
+.hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.rectangle-8 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 5rem;
+  border-style: solid;
+  border-color: #6001d3;
+  border-width: 0.2rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.div11 {
+  width: 31.82%;
+  height: 69.81%;
+  position: absolute;
+  right: 34.09%;
+  left: 34.09%;
+  bottom: 15.09%;
+  top: 15.09%;
+}
+.div12 {
+  color: #000000;
+  text-align: center;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  right: -32.14%;
+  left: -32.14%;
+  width: 164.29%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.defalt-bg2 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 54.2rem;
+  top: 59.1rem;
+}
+.rectangle-82 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 5rem;
+  border-style: solid;
+  border-color: #fd346e;
+  border-width: 0.2rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.div13 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+._32 {
+  background: #ffffff;
+  width: 192rem;
+  height: 86.8rem;
+  position: absolute;
+  left: 0rem;
+  top: 411.6rem;
+  overflow: hidden;
+}
+._03 {
+  color: var(--text-gray5, #aaaaaa);
+  text-align: left;
+  font-family: "Suit-Heavy", sans-serif;
+  font-size: 24rem;
+  line-height: 175%;
+  font-weight: 400;
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: 73.8rem;
+  top: -10.4rem;
+}
+.div14 {
+  position: absolute;
+  inset: 0;
+}
+.portpolio-03 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h4-font-size, 3.6rem);
+  line-height: var(--h4-line-height, 175%);
+  font-weight: var(--h4-font-weight, 400);
+  position: absolute;
+  left: 109rem;
+  top: 12.3rem;
+  width: 25.16rem;
+}
+.div15 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h2-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h2-font-size, 6.1rem);
+  line-height: var(--h2-line-height, 175%);
+  font-weight: var(--h2-font-weight, 700);
+  position: absolute;
+  left: 109rem;
+  top: 17.9rem;
+  width: 40.042rem;
+}
+.html-css-javascript {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 109rem;
+  top: 28.6rem;
+  width: 36.937rem;
+}
+.group-21 {
+  position: absolute;
+  inset: 0;
+}
+.group-10048-1 {
+  width: 24.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 70.8rem;
+  top: 60.6rem;
+  object-fit: cover;
+}
+._878-1 {
+  border-radius: 1rem;
+  width: 69.1rem;
+  height: 50.4rem;
+  position: absolute;
+  left: 26rem;
+  top: 13.1rem;
+  box-shadow: var(
+    --shadow2-box-shadow,
+    1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25)
+  );
+  object-fit: cover;
+}
+._5558-1 {
+  background: #c4c4c4;
+  border-radius: 1rem;
+  width: 17.1rem;
+  height: 30.8rem;
+  position: absolute;
+  left: 83.5rem;
+  top: 44.8rem;
+  box-shadow: var(
+    --shadow1-box-shadow,
+    0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25)
+  );
+}
+.defalt-bg3 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 132.2rem;
+  top: 64.2rem;
+}
+.defalt-bg4 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 109rem;
+  top: 64.3rem;
+}
+._22 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 109rem;
+  top: 56.9rem;
+}
+._23 {
+  background: #ffffff;
+  width: 192rem;
+  height: 84rem;
+  position: absolute;
+  left: 0rem;
+  top: 327.6rem;
+  overflow: hidden;
+}
+._02 {
+  color: var(--text-gray5, #aaaaaa);
+  text-align: left;
+  font-family: "Suit-Heavy", sans-serif;
+  font-size: 24rem;
+  line-height: 175%;
+  font-weight: 400;
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: 132.5rem;
+  top: -10.1rem;
+}
+.portfolio-02 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h4-font-size, 3.6rem);
+  line-height: var(--h4-line-height, 175%);
+  font-weight: var(--h4-font-weight, 400);
+  position: absolute;
+  left: 26rem;
+  top: 11.9rem;
+  width: 25.16rem;
+}
+.div16 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h2-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h2-font-size, 6.1rem);
+  line-height: var(--h2-line-height, 175%);
+  font-weight: var(--h2-font-weight, 700);
+  position: absolute;
+  left: 26rem;
+  top: 17.5rem;
+  width: 40.042rem;
+}
+.html-css-javascript-j-query {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 26rem;
+  top: 28.2rem;
+  width: 57.6rem;
+}
+.div17 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 26rem;
+  top: 36.5rem;
+  width: 57.6rem;
+}
+.group-22 {
+  position: absolute;
+  inset: 0;
+}
+.group-10048-12 {
+  width: 27.925rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 128.9rem;
+  top: 61.7rem;
+  object-fit: cover;
+}
+._878-12 {
+  border-radius: 1rem;
+  width: 71rem;
+  height: 50.3rem;
+  position: absolute;
+  left: 85.1rem;
+  top: 13.7rem;
+  box-shadow: var(
+    --shadow2-box-shadow,
+    1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25)
+  );
+  object-fit: cover;
+}
+.defalt-bg5 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 49.8rem;
+  top: 64rem;
+}
+.defalt-bg6 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 26rem;
+  top: 64rem;
+}
+._5558-12 {
+  background: #c4c4c4;
+  border-radius: 1rem;
+  width: 17.1rem;
+  height: 30.8rem;
+  position: absolute;
+  left: 142.9rem;
+  top: 44.2rem;
+  box-shadow: var(
+    --shadow1-box-shadow,
+    0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25)
+  );
+}
+._24 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 26rem;
+  top: 57.2rem;
+}
+._12 {
+  background: #ffffff;
+  width: 192rem;
+  height: 81.2rem;
+  position: absolute;
+  left: 0rem;
+  top: 246.4rem;
+  overflow: hidden;
+}
+._01 {
+  color: var(--text-gray5, #aaaaaa);
+  text-align: left;
+  font-family: "Suit-Heavy", sans-serif;
+  font-size: 24rem;
+  line-height: 175%;
+  font-weight: 400;
+  opacity: 0.20000000298023224;
+  position: absolute;
+  left: 77.4rem;
+  top: -10.8rem;
+  width: 28.5rem;
+}
+.portpolio-01 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h4-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h4-font-size, 3.6rem);
+  line-height: var(--h4-line-height, 175%);
+  font-weight: var(--h4-font-weight, 400);
+  position: absolute;
+  left: 108.6rem;
+  top: 11.6rem;
+  width: 25.16rem;
+}
+.div18 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h2-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h2-font-size, 6.1rem);
+  line-height: var(--h2-line-height, 175%);
+  font-weight: var(--h2-font-weight, 700);
+  position: absolute;
+  left: 108.6rem;
+  top: 17.2rem;
+  width: 40.042rem;
+}
+.html-css-javascript-j-query2 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 108.6rem;
+  top: 27.9rem;
+  width: 58.8rem;
+}
+.div19 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 108.6rem;
+  top: 35.7rem;
+  width: 57.4rem;
+}
+._4 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 109.2rem;
+  top: 55.9rem;
+}
+.group-23 {
+  position: absolute;
+  inset: 0;
+}
+.defalt-bg7 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 108.6rem;
+  top: 64.3rem;
+}
+.defalt-bg8 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 132.7rem;
+  top: 64.3rem;
+}
+._878-13 {
+  border-radius: 1rem;
+  width: 69.1rem;
+  height: 50.4rem;
+  position: absolute;
+  left: 26.1rem;
+  top: 13.9rem;
+  box-shadow: var(
+    --shadow2-box-shadow,
+    1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25)
+  );
+  object-fit: cover;
+}
+.ellipse-44 {
+  background: rgba(255, 137, 91, 0.2);
+  border-radius: 50%;
+  width: 75.3rem;
+  height: 75.3rem;
+  position: absolute;
+  left: 97.4rem;
+  top: 114.8rem;
+}
+.div20 {
+  width: 192rem;
+  height: 78.4rem;
+  position: absolute;
+  left: 0.5rem;
+  top: 168rem;
+  overflow: hidden;
+}
+.group-20 {
+  position: absolute;
+  inset: 0;
+}
+.skill {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h3-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h3-font-size, 4.7rem);
+  line-height: var(--h3-line-height, 175%);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: 90.1rem;
+  top: 8.3rem;
+}
+.group-19 {
+  width: 104.4rem;
+  height: 46.2rem;
+  position: static;
+}
+.group-10 {
+  width: 54.65rem;
+  height: 40.45rem;
+  position: absolute;
+  left: 68.05rem;
+  top: 22.7rem;
+  overflow: visible;
+}
+.group-11 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-45 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 44.1rem;
+  top: 18.2rem;
+}
+.group-12 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-452 {
+  background: var(--text-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 73.3rem;
+  top: 18rem;
+}
+.group-13 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-453 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 102.5rem;
+  top: 17.8rem;
+}
+.group-14 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-454 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 131.7rem;
+  top: 17.6rem;
+}
+.group-15 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-455 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 131.7rem;
+  top: 47rem;
+}
+.group-16 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-456 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 102.5rem;
+  top: 47rem;
+}
+.group-17 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-457 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 73.3rem;
+  top: 47rem;
+}
+.group-18 {
+  width: 16.8rem;
+  height: 16.8rem;
+  position: static;
+}
+.ellipse-458 {
+  background: var(--bgcolor-gray7, #ffffff);
+  border-radius: 50%;
+  width: 16.8rem;
+  height: 16.8rem;
+  position: absolute;
+  left: 44.1rem;
+  top: 47rem;
+}
+.html-css {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 44.9rem;
+  top: 35.8rem;
+}
+.jquery {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 77.5rem;
+  top: 35.8rem;
+}
+.java-script {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 104.1rem;
+  top: 35.8rem;
+}
+.scss {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 136.6rem;
+  top: 35.8rem;
+}
+.react {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 136.6rem;
+  top: 64.3rem;
+}
+.figma {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 107.1rem;
+  top: 64.3rem;
+}
+.illustrator {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 76.2rem;
+  top: 64.3rem;
+}
+.pothoshop {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 46.2rem;
+  top: 64.3rem;
+}
+.defalt-bg9 {
+  width: 17.6rem;
+  height: 5.3rem;
+  position: absolute;
+  left: 11.3rem;
+  top: 4.4rem;
+}
+.div21 {
+  width: 192rem;
+  height: 81.2rem;
+  position: absolute;
+  left: 0rem;
+  top: 86.8rem;
+  overflow: hidden;
+}
+.rectangle-12 {
+  border-radius: 0rem;
+  width: 53.3rem;
+  height: 30.7rem;
+  position: absolute;
+  left: 84.1rem;
+  top: 16.1rem;
+  overflow: visible;
+}
+.profile {
+  color: var(--text-hue1, #fd346e);
+  text-align: left;
+  font-family: "Suit-Medium", sans-serif;
+  font-size: 4.7rem;
+  line-height: 175%;
+  font-weight: 500;
+  position: absolute;
+  left: 37.8rem;
+  top: 16.1rem;
+}
+._1999-10-suna-99-yu-naver-com {
+  color: #000000;
+  text-align: left;
+  position: absolute;
+  left: 37.8rem;
+  top: 24.3rem;
+}
+._1999-10-suna-99-yu-naver-com-span {
+  color: #000000;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span2 {
+  color: #000000;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span3 {
+  color: #000000;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span4 {
+  color: #000000;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span5 {
+  color: #000000;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span6 {
+  color: #000000;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span7 {
+  color: #000000;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+}
+._1999-10-suna-99-yu-naver-com-span8 {
+  color: #000000;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+}
+.educaiton {
+  color: var(--text-hue1, #fd346e);
+  text-align: left;
+  font-family: "Suit-Medium", sans-serif;
+  font-size: 4.7rem;
+  line-height: 175%;
+  font-weight: 500;
+  position: absolute;
+  left: 37.6rem;
+  top: 46.8rem;
+}
+.div22 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 37.6rem;
+  top: 55.7rem;
+  width: 72.5rem;
+}
+.div23 {
+  width: 0rem;
+  height: 16.4rem;
+  position: absolute;
+  left: 53.9rem;
+  top: 50.8rem;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.lisence {
+  color: var(--text-hue1, #fd346e);
+  text-align: left;
+  font-family: "Suit-Medium", sans-serif;
+  font-size: 4.7rem;
+  line-height: 175%;
+  font-weight: 500;
+  position: absolute;
+  left: 84.9rem;
+  top: 16.1rem;
+}
+._25 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 84.9rem;
+  top: 24.3rem;
+  width: 35.3rem;
+}
+.about-me {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h3-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h3-font-size, 4.7rem);
+  line-height: var(--h3-line-height, 175%);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: calc(50% - 12.4rem);
+  top: 4.6rem;
+}
+.div24 {
+  width: 33.8rem;
+  height: 50.7rem;
+  position: absolute;
+  left: 126.5rem;
+  top: 17.7rem;
+}
+._11-256-1 {
+  border-radius: 1.5rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.ellipse-46 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 16.3rem;
+  height: 16.3rem;
+  position: absolute;
+  left: 136.1rem;
+  top: 21.9rem;
+}
+.div25 {
+  background: #ffffff;
+  width: 192rem;
+  height: 78.4rem;
+  position: absolute;
+  left: calc(50% - 96rem);
+  top: 8.4rem;
+  overflow: hidden;
+}
+.vector {
+  width: 100%;
+  height: 110.71%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: -10.71%;
+  overflow: visible;
+}
+.person {
+  position: absolute;
+  inset: 0;
+}
+.visual {
+  width: 55.642999999999994rem;
+  height: 62.81rem;
+  position: static;
+}
+.vector-10 {
+  width: 55.641rem;
+  height: 57.71rem;
+  position: absolute;
+  left: 98.9rem;
+  top: 12.7rem;
+  overflow: visible;
+}
+.mask-group {
+  width: 55.641rem;
+  height: 57.71rem;
+  position: absolute;
+  left: 98.898rem;
+  top: 12.664rem;
+  overflow: visible;
+}
+._11-256-2 {
+  border-radius: 1.5rem;
+  width: 41.9rem;
+  height: 26.8rem;
+  position: absolute;
+  left: 104.1rem;
+  top: 7.6rem;
+  object-fit: cover;
+}
+.group-10048 {
+  width: 24.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 98.1rem;
+  top: 59.8rem;
+  object-fit: cover;
+}
+.card-5 {
+  width: 22.6%;
+  height: 30.99%;
+  position: absolute;
+  right: 14.32%;
+  left: 63.07%;
+  bottom: -0.89%;
+  top: 69.9%;
+  object-fit: cover;
+}
+.group-7555 {
+  width: 28.9rem;
+  height: 33.2rem;
+  position: absolute;
+  left: 140.1rem;
+  top: 25rem;
+  object-fit: cover;
+}
+.group-9279 {
+  width: 8.4rem;
+  height: 12.9rem;
+  position: absolute;
+  left: 143.4rem;
+  top: 12.3rem;
+  object-fit: cover;
+}
+.group-9280 {
+  width: 21.8rem;
+  height: 21.8rem;
+  position: absolute;
+  left: 94rem;
+  top: 52.3rem;
+  object-fit: cover;
+}
+.text {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: absolute;
+  left: 27.5rem;
+  top: 24.6rem;
+}
+.div26 {
+  color: var(--text-hue1, #fd346e);
+  text-align: left;
+  font-family: var(--h4-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h4-font-size, 3.6rem);
+  line-height: var(--h4-line-height, 175%);
+  font-weight: var(--h4-font-weight, 400);
+  position: absolute;
+  left: 26.1rem;
+  top: 18.8rem;
+  width: 61.2rem;
+  height: 7rem;
+}
+.div27 {
+  color: var(--text-gray1, #000000);
+  text-align: left;
+  font-family: var(--h2-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h2-font-size, 6.1rem);
+  line-height: var(--h2-line-height, 175%);
+  font-weight: var(--h2-font-weight, 700);
+  position: absolute;
+  left: 26.1rem;
+  top: 25.8rem;
+}
+.defalt-bg10 {
+  background: var(--text-hue1, #fd346e);
+  border-radius: 4rem;
+  padding: 1.2rem 6rem 1.2rem 6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 26.1rem;
+  top: 51.2rem;
+}
+.div28 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: relative;
+}
+.defalt-bg11 {
+  background: var(--bgcolor-hue4, #fcdc00);
+  border-radius: 4rem;
+  padding: 1.2rem 6rem 1.2rem 6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50.7rem;
+  top: 51.2rem;
+}
+.div29 {
+  color: var(--text-gray1, #000000);
+  text-align: left;
+  font-family: var(--h5-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h5-font-size, 2.7rem);
+  line-height: var(--h5-line-height, 175%);
+  font-weight: var(--h5-font-weight, 400);
+  position: relative;
+}
+.ellipse-462 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 22.4rem;
+  height: 22.4rem;
+  position: absolute;
+  left: 115.5rem;
+  top: 11.1rem;
+}
+.nav {
+  background: var(--bgcolor-gray6, #f3f4f6);
+  width: 192rem;
+  height: 8.4rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-3 {
+  background: var(--bgcolor-hue1, #6001d3);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 29rem;
+  top: 1.7rem;
+}
+.logo2 {
+  color: var(--bgcolor-gray7, #ffffff);
+  text-align: left;
+  font-family: var(--text1-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--text1-font-size, 1.6rem);
+  line-height: var(--text1-line-height, 175%);
+  font-weight: var(--text1-font-weight, 400);
+  position: absolute;
+  left: calc(50% - 65.9rem);
+  top: calc(50% - 1.5rem);
+}
+.about-me2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 175%;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 11.1rem);
+  top: calc(50% - 4.2rem);
+  width: 15rem;
+  height: 8.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 175%;
+  font-weight: 700;
+  position: absolute;
+  left: 101.5rem;
+  top: 0rem;
+  width: 15rem;
+  height: 8.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio {
+  color: #000000;
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 175%;
+  font-weight: 700;
+  position: absolute;
+  left: 118.1rem;
+  top: 0rem;
+  width: 15rem;
+  height: 8.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.design2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 175%;
+  font-weight: 700;
+  position: absolute;
+  left: 134.7rem;
+  top: 0rem;
+  width: 15rem;
+  height: 8.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 175%;
+  font-weight: 700;
+  position: absolute;
+  left: 151.3rem;
+  top: 0rem;
+  width: 15rem;
+  height: 8.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div30 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h6-font-family, "Suit-Regular", sans-serif);
+  font-size: var(--h6-font-size, 2.1rem);
+  line-height: var(--h6-line-height, 175%);
+  font-weight: var(--h6-font-weight, 400);
+  position: absolute;
+  left: 108.6rem;
+  top: 447.1rem;
+  width: 57.4rem;
+}
+.div31 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 47.6rem;
+  position: absolute;
+  left: 47.5rem;
+  top: 182.1rem;
+}
+.skill3 {
+  background: var(--bgcolor-hue1, #6001d3);
+  border-radius: 3rem;
+  padding: 5rem 10rem 10rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  height: 47.6rem;
+  position: relative;
+  box-shadow: 1rem 2rem 4.7rem 1rem rgba(96, 1, 211, 0.3);
+}
+.skill4 {
+  color: var(--text-gray7, #ffffff);
+  text-align: center;
+  font-family: var(--h3-font-family, "Suit-Bold", sans-serif);
+  font-size: var(--h3-font-size, 4.7rem);
+  line-height: var(--h3-line-height, 175%);
+  font-weight: var(--h3-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-11 {
+  display: flex;
+  flex-direction: row;
+  gap: 9rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.num {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+._80 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 6.1rem;
+  line-height: 100%;
+  font-weight: 700;
+  position: relative;
+  width: 7.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photoshop {
+  color: var(--text-gray6, #d9d9d9);
+  text-align: center;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 100%;
+  font-weight: 700;
+  position: relative;
+  width: 8.2rem;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 9rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.top {
+  width: 7.7rem;
+  height: 7.7rem;
+  position: sticky;
+  left: 174.1rem;
+  top: 78.4rem;
+}
+.ellipse-432 {
+  background: var(--bgcolor-hue3, #ff895b);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.icon-meterial2 {
+  width: 5.6rem;
+  height: 4.4rem;
+  position: absolute;
+  left: calc(50% - 2.75rem);
+  top: calc(50% - 2.15rem);
+}
+.top2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Suit-Bold", sans-serif;
+  font-size: 2.7rem;
+  line-height: 175%;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: -6.82%;
+  top: 0%;
+  height: 106.82%;
+}
