@@ -1,0 +1,81 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --text-hue1: #fd346e;
+    --text-hue2: #1bb0ce;
+    --text-hue3: #abafc7;
+    --text-gray1: #000000;
+    --text-gray2: #081420;
+    --text-gray3: #3d3d3d;
+    --text-gray4: #818a91;
+    --text-gray5: #aaaaaa;
+    --text-gray6: #d9d9d9;
+    --text-gray7: #ffffff;
+    --bgcolor-hue1: #6001d3;
+    --bgcolor-hue3: #ff895b;
+    --bgcolor-hue4: #fcdc00;
+    --bgcolor-gray1: #192431;
+    --bgcolor-gray2: #212c3a;
+    --bgcolor-gray3: #333333;
+    --bgcolor-gray4: #3d3d3d;
+    --bgcolor-gray5: #bbbbbb;
+    --bgcolor-gray6: #f3f4f6;
+    --bgcolor-gray7: #ffffff;
+    --bgcolor-hue2: #527ceb;
+  
+    /* Fonts */
+    --text3-font-family: Suit-Regular, sans-serif;
+    --text3-font-size: 0.9rem;
+    --text3-line-height: 175%;
+    --text3-font-weight: 400;
+    --text3-font-style: normal;
+    --text2-font-family: Suit-Regular, sans-serif;
+    --text2-font-size: 1.2rem;
+    --text2-line-height: 175%;
+    --text2-font-weight: 400;
+    --text2-font-style: normal;
+    --text1-font-family: Suit-Regular, sans-serif;
+    --text1-font-size: 1.6rem;
+    --text1-line-height: 175%;
+    --text1-font-weight: 400;
+    --text1-font-style: normal;
+    --h6-font-family: Suit-Regular, sans-serif;
+    --h6-font-size: 2.1rem;
+    --h6-line-height: 175%;
+    --h6-font-weight: 400;
+    --h6-font-style: normal;
+    --h5-font-family: Suit-Regular, sans-serif;
+    --h5-font-size: 2.7rem;
+    --h5-line-height: 175%;
+    --h5-font-weight: 400;
+    --h5-font-style: normal;
+    --h4-font-family: Suit-Regular, sans-serif;
+    --h4-font-size: 3.6rem;
+    --h4-line-height: 175%;
+    --h4-font-weight: 400;
+    --h4-font-style: normal;
+    --h3-font-family: Suit-Bold, sans-serif;
+    --h3-font-size: 4.7rem;
+    --h3-line-height: 175%;
+    --h3-font-weight: 700;
+    --h3-font-style: normal;
+    --h2-font-family: Suit-Bold, sans-serif;
+    --h2-font-size: 6.1rem;
+    --h2-line-height: 175%;
+    --h2-font-weight: 700;
+    --h2-font-style: normal;
+    --h1-font-family: Suit-Bold, sans-serif;
+    --h1-font-size: 8rem;
+    --h1-line-height: 175%;
+    --h1-font-weight: 700;
+    --h1-font-style: normal;
+  
+    /* Effects */
+    --shadow1-box-shadow: 0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
+    --shadow2-box-shadow: 1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
+    --shadow3-box-shadow: 1rem 2rem 3rem 1rem rgba(0, 0, 0, 0.25);
+  }
+  
