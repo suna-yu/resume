@@ -50,17 +50,6 @@ html {
 ==================================== */
 
 :root {
-	--primary1: #f9f9f9;
-	--primary2: #a7a9ac;
-	--secondary1: #2a2b30;
-	--secondary2: #464646;
-	--accent1: #cc7e27;
-	--accent2: #cda348;
-	/* --text1: #333;
-	--text2: #555;
-	--text3: #888;
-	--white: #fff;*/
-	/* --link: #cc7e27;  */
 	--col: 10.8rem;
 	--gu: 1.6rem;
 	--unit: calc(var(--col) + var(--gu));
@@ -110,8 +99,11 @@ body {
 /* Figma Styles of your File */
 :root {
     /* Colors */
-    --text-hue1: #fd346e;
-    --text-hue2: #1bb0ce;
+    --accent1: #fd346e;
+    --accent2: #1bb0ce;
+	--accent3: #6001d3;
+	--accent4: #fcdc00;
+	
     --text-hue3: #abafc7;
     --text-gray1: #000000;
     --text-gray2: #081420;
@@ -120,9 +112,7 @@ body {
     --text-gray5: #aaaaaa;
     --text-gray6: #d9d9d9;
     --text-gray7: #ffffff;
-    --bgcolor-hue1: #6001d3;
     --bgcolor-hue3: #ff895b;
-    --bgcolor-hue4: #fcdc00;
     --bgcolor-gray1: #192431;
     --bgcolor-gray2: #212c3a;
     --bgcolor-gray3: #333333;
@@ -137,9 +127,9 @@ body {
 
   
     /* Effects */
-    --shadow1-box-shadow: 0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
-    --shadow2-box-shadow: 1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
-    --shadow3-box-shadow: 1rem 2rem 3rem 1rem rgba(0, 0, 0, 0.25);
+    --shadow1: 0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
+    --shadow2: 1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
+    --shadow3: 1rem 2rem 5rem 1rem rgba(0, 0, 0, 0.25);
   }
   
 
