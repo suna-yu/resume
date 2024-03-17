@@ -140,7 +140,7 @@ nav .menu a {font-size: 2rem;}
 .right_img .right3 {top: 65rem; left: 30rem;}
 
 @media (max-width: 1350px) {
-    .right_img {left: -1rem;}
+    .right_img {left: -1.5rem;}
 }
 @media (max-width: 1250px) {
     .main_visual .profile_img {transform: scale(0.8);}
@@ -259,12 +259,33 @@ nav .menu a {font-size: 2rem;}
     background-color: gray;
     top: calc(var(--row) * 5);
     border-radius: 2rem;
-    z-index: 999;
+    z-index: 99;
     transition: all 0.3s;
 }
 .port .main_screen:hover {
     box-shadow: var(--shadow3);
     transform: translateY(-5px) translateX(-5px);
+}
+
+.port .main_screen:hover .main_mobile {
+    box-shadow: var(--shadow3);
+}
+
+.port .main_mobile {
+    width: 100%;
+    max-width: calc(var(--unit) * 1.5);
+    height: 100%;
+    max-height: calc(var(--row) * 11);
+    background-color: lightgray;
+    z-index: 999;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: calc(var(--row) * -4);
+    right: -5rem;
+    transition: all 0.3s;
+}
+@media (max-width: 1350px) {
+    .port .main_mobile {right: 2rem;}
 }
 
 .port > img {
