@@ -62,12 +62,12 @@ nav .menu a {font-size: 2rem;}
 }
 
 /* 버튼 */
-.btn {gap: calc(var(--unit) * 0.5);}
-.btn > div {
+.main_visual .btn {gap: calc(var(--unit) * 0.5);}
+.main_visual .btn > div {
     border-radius: 4rem; 
     width: calc(var(--unit) * 1.5);
     height: calc(var(--row) * 2.5);
-    line-height: calc(var(--row) * 2.5);
+    line-height: calc(var(--row) * 2.4);
     text-align: center;
     transition: all 0.2s;
     margin-top: var(--row);
@@ -309,6 +309,18 @@ nav .menu a {font-size: 2rem;}
     padding-right: 1rem;
 }
 
+/* 버튼 */
+.portfolio .btn {gap: var(--gu);}
+.portfolio .btn > div {
+    border-radius: 4rem; 
+    width: calc(var(--unit) * 1.2);
+    height: calc(var(--row) * 2.2);
+    line-height: calc(var(--row) * 2.1);
+    text-align: center;
+    transition: all 0.2s;
+    margin-top: var(--row);
+}
+
 .btn_post {
     background-color: white;
     border: 3px solid var(--accent1);
@@ -319,9 +331,16 @@ nav .menu a {font-size: 2rem;}
 }
 .btn_github {
     background: white; 
-    border: 3px solid var(--accent3) ;
+    border: 3px solid var(--accent4) ;
 }
 .btn_github:hover {
+    background-color: var(--accent4);
+}
+.btn_site {
+    background: white; 
+    border: 3px solid var(--accent3) ;
+}
+.btn_site:hover {
     background-color: var(--accent3);
     color: white;
 }
