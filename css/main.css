@@ -344,3 +344,18 @@ nav .menu a {font-size: 2rem;}
     background-color: var(--accent3);
     color: white;
 }
+
+/* ====================================
+    ======= team project ======    
+==================================== */
+.team > h3 {
+    text-align: center;
+    line-height: calc(var(--row) * 6);
+}
+
+.team .screen {
+    width: 100%;
+    max-width: var(--unit6);
+    height: calc(var(--row) * 14);
+    background-color: gray;
+}

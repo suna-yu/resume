@@ -36,3 +36,9 @@ nav {
     width: 100%;
     height: calc(var(--row) * 30);
 }
+
+.team {
+    width: 100%;
+    height: calc(var(--row) * 25);
+    background-color: lightblue;
+}
