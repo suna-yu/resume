@@ -40,5 +40,16 @@ nav {
 .team {
     width: 100%;
     height: calc(var(--row) * 25);
+}
+
+.design {
+    width: 100%;
+    height: calc(var(--row) * 30);
+    background-color: lightcoral;
+}
+
+.contact {
+    width: var(--unit10);
+    height: calc(var(--row) * 15);
     background-color: lightblue;
 }

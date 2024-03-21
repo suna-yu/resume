@@ -20,9 +20,9 @@
                 <ul class="menu">
                     <li><a href="#about_me">ABOUT ME</a></li>
                     <li><a href="#skill">SKILL</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">DESIGN</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#design">DESIGN</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -102,7 +102,7 @@
         <div class="skill" id="skill">
             <div class="skill_box">
                 <h3>Skill</h3>
-                <div class="text1 df">
+                <div class="text text1 df">
                     <div>
                         <div class="point">80</div>
                         <div class="title">PS</div>
@@ -116,11 +116,11 @@
                         <div class="title">FIGMA</div>
                     </div>
                     <div>
-                        <div class="point">80</div>
+                        <div class="point">90</div>
                         <div class="title">GIT</div>
                     </div>
                 </div>
-                <div class="text2 df">
+                <div class="text text2 df">
                     <div>
                         <div class="point">80</div>
                         <div class="title">HTML</div>
@@ -128,10 +128,10 @@
                         <div class="point">80</div>
                         <div class="title">CSS</div>
                     </div><div>
-                        <div class="point">80</div>
+                        <div class="point">70</div>
                         <div class="title">SCSS</div>
                     </div><div>
-                        <div class="point">80</div>
+                        <div class="point">70</div>
                         <div class="title">JS</div>
                     </div><div>
                         <div class="point">80</div>
@@ -140,11 +140,16 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio case1">
+        <div class="portfolio case1" id="portfolio">
             <div class="inner df">
                 <div class="port">
                     <div class="text">01</div>
-                    <div class="main_screen"></div>
+                    <div class="main_screen pc pr">
+                        <div class="mask pa">
+                            <img src="./source/suna-yu.github.io_project1_.png" alt="project1" class="screen">
+                        </div>
+                        <img src="./source/pc_screen.jpg" alt="" class="pc_device">
+                    </div>
                     <img src="./source/icon/left3.png" alt="">
                 </div>
                 <div class="text_box">
@@ -189,10 +194,19 @@
                 </div>
                 <div class="port">
                     <div class="text">02</div>
-                    <div class="main_screen">
-                        <div class="main_mobile"></div>
+                    <div class="main_screen pc pr">
+                        <div class="mask m pa">
+                            <img src="./source/origin/ottogi_pc.png" alt="project1" class="screen">
+                        </div>
+                        <img src="./source/pc_screen.jpg" alt="" class="pc_device">
                     </div>
-                    <img src="./source/icon/left3.png" alt="">
+                    <div class="main_mobile pr">
+                        <div class="mask pa">
+                            <img src="./source/origin/ottogi_m.png" alt="mobile" class="screen">
+                        </div>
+                        <img src="./source/m_screen.png" alt="" class="m_device">
+                    </div>
+                    <img src="./source/icon/left3.png" alt="mobile">
                 </div>
             </div>
         </div>
@@ -200,12 +214,55 @@
             <div class="inner">
                 <h3>Team Project</h3>
                 <div class="df">
-                    <div class="screen"></div>
-                    <div class="text_box"></div>
+                    <div class="main_screen">
+                        <div class="screen pr">
+                            <img src="./source/icon/icon1.jpg" alt="1" class="icon pa">
+                        </div>
+                        <div class="btn df">
+                            <div class="btn_resume">
+                              <a href="#">이력서</a>
+                            </div>
+                            <div class="btn_git">
+                              <a href="https://github.com/suna-yu" target="_blank">깃허브</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_box">
+                        <h2>더피움</h2>
+                        <h5>#Google Survey #Figma</h5>
+                        <p class="h6">꽃집에서 픽업과 배달이 어려웠던 경험에서 착안해 꽃집과 고객을 연결하고, 더 나아가 B2B로 정기적 납품이 필요한 고객을 위한 UI / UX 디자인을 기획하게 되었습니다. 팀원간 소통과 협업의 중요성을 알게 되었습니다.</p>
+                        <h6>제작기간 2주</h6>
+                        <h5>본인기여도 33%</h5>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="design" id="design">
+            <h3>Design</h3>
+            <div class="inner df">
+                <div class="des des1">
+                    <div class="art">
+                        <div class="para">디자인1</div>
+                    </div>
+                </div>
+                <div class="des des2">
+                    <div class="art">
+                        <div class="para">디자인2</div>
+                    </div>
+                </div>
+                <div class="des des3">
+                    <div class="art">
+                        <div class="para">디자인3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact"></div>
     </main>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
