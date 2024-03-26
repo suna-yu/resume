@@ -104,23 +104,24 @@ body {
 	--accent3: #6001d3;
 	--accent4: #fcdc00;
 	
-    --text-hue3: #abafc7;
-    --text-gray1: #000000;
-    --text-gray2: #081420;
-    --text-gray3: #3d3d3d;
-    --text-gray4: #818a91;
-    --text-gray5: #aaaaaa;
-    --text-gray6: #d9d9d9;
-    --text-gray7: #ffffff;
-    --bgcolor-hue3: #ff895b;
-    --bgcolor-gray1: #192431;
-    --bgcolor-gray2: #212c3a;
-    --bgcolor-gray3: #333333;
-    --bgcolor-gray4: #3d3d3d;
-    --bgcolor-gray5: #bbbbbb;
-    --bgcolor-gray6: #f3f4f6;
-    --bgcolor-gray7: #ffffff;
-    --bgcolor-hue2: #527ceb;
+    --t-hue3: #abafc7;
+    --t-gray1: #000000;
+    --t-gray2: #081420;
+    --t-gray3: #3d3d3d;
+    --t-gray4: #818a91;
+    --t-gray5: #aaaaaa;
+    --t-gray6: #d9d9d9;
+    --t-gray7: #ffffff;
+    
+    --bg-gray1: #192431;
+    --bg-gray2: #212c3a;
+    --bg-gray3: #333333;
+    --bg-gray4: #3d3d3d;
+    --bg-gray5: #bbbbbb;
+    --bg-gray6: #f3f4f6;
+    --bg-gray7: #ffffff;
+	--hue3: #ff895b;
+    --hue2: #527ceb;
   
     /* Fonts */
     --text3-font-family: 'Pretendard';

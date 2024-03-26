@@ -1,0 +1,8 @@
+*.zip
+*.psd
+*.ai
+*.fig
+*.pptx
+
+guide/
+sample/

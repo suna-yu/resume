@@ -6,12 +6,12 @@ skill.forEach((el) => {
     const tm = gsap.timeline({
         defaults: {duration: 4, ease: 'expo.out'},
         scrollTrigger: {
-            trigger: el, 
-            toggleActions: 'play pause resume reset', 
+            trigger: el,
+            toggleActions: 'play pause resume reset',
         },
     });
     tm.from(counter, {
-        textContent: 0, 
+        textContent: 0,
         modifiers: {
             textContent: (textContent) => {
                 return textContent.toFixed();
@@ -28,12 +28,13 @@ const pcS1 = $('.case1 .main_screen .screen');
 const pcM1 = $('.case1 .main_screen .mask');
 const pcS2 = $('.case2 .main_screen .screen');
 const pcM2 = $('.case2 .main_screen .mask');
-const mS1 = $('.case2 .main_mobile .screen');
+const mS1 = $('.case2 .main_mobile .mask .screen');
 const mM1 = $('.case2 .main_mobile .mask');
+console.log(mM1, mS1);
 
 // up 함수
 const aniup = function(mask, screen) {
-    var newH1 = mask.height(); 
+    var newH1 = mask.height();
     var newH2 = screen.height();
     var height = newH1 - newH2;
     gsap.to(screen, {y: height, duration: 3});
@@ -54,9 +55,8 @@ ScrollTrigger.create({
         pcM1.mouseleave(function() { anidown(pcS1); });
         pcM2.mouseenter(function() { aniup(pcM2, pcS2); });
         pcM2.mouseleave(function() { anidown(pcS2); });
-        // 모바일은 안 되고 있음... 왤까.
+        // 내려가는 화면이 제일 위에 올라와 있어야 함!! 
         mM1.mouseenter(function() { aniup(mM1, mS1); });
         mM1.mouseleave(function() { anidown(mS1); });
     }
 });
-

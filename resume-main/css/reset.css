@@ -1,0 +1,197 @@
+@charset "utf-8";
+@import url(./fonts.css);
+/* @import url(./all.min.css); */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	line-height: 1.75;
+	font-family: 'Pretendard';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ====================================
+    ======= 전역변수 ======
+==================================== */
+
+:root {
+	--col: 10.8rem;
+	--gu: 1.6rem;
+	--unit: calc(var(--col) + var(--gu));
+	--row: 2.8rem;
+	--n10: 12;
+	--n10: 11;
+	--n10: 10;
+	--n9: 9;
+	--n8: 8;
+	--n7: 7;
+	--n6: 6;
+	--n5: 5;
+	--n4: 4;
+	--n3: 3;
+	--n2: 2;
+	--n1: 1;
+	--unit12: calc(var(--unit) * var(--n12));
+	--unit11: calc(var(--unit) * var(--n11));
+	--unit10: calc(var(--unit) * var(--n10));
+	--unit9: calc(var(--unit) * var(--n9));
+	--unit8: calc(var(--unit) * var(--n8));
+	--unit7: calc(var(--unit) * var(--n7));
+	--unit6: calc(var(--unit) * var(--n6));
+	--unit5: calc(var(--unit) * var(--n5));
+	--unit4: calc(var(--unit) * var(--n4));
+	--unit3: calc(var(--unit) * var(--n3));
+	--unit2: calc(var(--unit) * var(--n2));
+	--unit1: calc(var(--unit) * var(--n1));
+}
+a {
+	text-decoration: none;
+	font-family: 'Pretendard';
+	color: var(--link);
+	font-size: 1.6rem;
+}
+
+body {
+	font-family: 'Pretendard';
+	font-size: 1.6rem;
+}
+
+/* ====================================
+	======= var ======    
+==================================== */
+
+
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --accent1: #fd346e;
+    --accent2: #1bb0ce;
+	--accent3: #6001d3;
+	--accent4: #fcdc00;
+	
+    --text-hue3: #abafc7;
+    --text-gray1: #000000;
+    --text-gray2: #081420;
+    --text-gray3: #3d3d3d;
+    --text-gray4: #818a91;
+    --text-gray5: #aaaaaa;
+    --text-gray6: #d9d9d9;
+    --text-gray7: #ffffff;
+    --bgcolor-hue3: #ff895b;
+    --bgcolor-gray1: #192431;
+    --bgcolor-gray2: #212c3a;
+    --bgcolor-gray3: #333333;
+    --bgcolor-gray4: #3d3d3d;
+    --bgcolor-gray5: #bbbbbb;
+    --bgcolor-gray6: #f3f4f6;
+    --bgcolor-gray7: #ffffff;
+    --bgcolor-hue2: #527ceb;
+  
+    /* Fonts */
+    --text3-font-family: 'Pretendard';
+
+  
+    /* Effects */
+    --shadow1: 0.5rem 0.5rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
+    --shadow2: 1rem 1rem 2rem 0.5rem rgba(0, 0, 0, 0.25);
+    --shadow3: 1rem 2rem 5rem 1rem rgba(0, 0, 0, 0.25);
+  }
+  
+
+/* ====================================
+    ======= global classes ======
+==================================== */
+
+.h1,
+h1 {
+	font-size: 6.2rem;
+	font-weight: 700;
+}
+.h2,
+h2 {
+	font-size: 5rem;
+	font-weight: 700;
+}
+.h3,
+h3 {
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+.h4,
+h4 {
+	font-size: 3.2rem;
+	font-weight: 400;
+}
+.h5,
+h5 {
+	font-size: 2.4rem;
+	font-weight: 300;
+}
+.h6,
+h6 {
+	font-size: 2.1rem;
+	font-weight: 300;
+}
+.text {
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.75;
+}
+.link {
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-decoration: underline;
+}
+.df {
+	display: flex;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+
+.inner {
+	width: 100%;
+    max-width: 1400px;
+	margin: auto;
+	height: 100%;
+}
+.division {margin: 0;}

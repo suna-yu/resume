@@ -194,6 +194,29 @@ nav .menu a {font-size: 2rem;}
     right: 0;
 }
 
+.about_me .text1, .about_me .text2 {
+    position: relative;
+    z-index: 9;
+}
+.about_me img {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    bottom: calc(var(--row) * -8);
+    right: var(--unit);
+    z-index: 1;
+    transition: all 0.5s;
+}
+@media (max-width: 1200px) {
+    .about_me img {
+        opacity: 0.7;
+        width: 250px;
+        height: auto;
+        bottom: calc(var(--row) * -5);
+        right: 5%;
+    }
+}
+
 /* ====================================
     ======= skill ======    
 ==================================== */
@@ -206,6 +229,8 @@ nav .menu a {font-size: 2rem;}
     transform: translateY(14rem);
     border-radius: 3rem;
     transition: all 0.3s;
+    position: relative;
+    z-index: 999;
 }
 .skill_box h3 {
     text-align: center;
@@ -251,8 +276,19 @@ nav .menu a {font-size: 2rem;}
     flex: 5 1 0;
 }
 
+@media (max-width: 1000px) {
+    .portfolio .port, .portfolio .text_box {
+        width: 50%;
+    }
+    .case1 .port, .case3 .port {margin-right: 1rem;}
+    .case1 .text_box, .case3 .text_box {margin-left: 1rem;}
+    .case2 .port {margin-left: 1rem;}
+    .case2 .text_box {margin-right: 1rem;}
+}
+
 /* port */
 .port > * {position: absolute;}
+
 .port .text {
     font-size: 24rem;
     font-weight: 700;
@@ -318,19 +354,23 @@ nav .menu a {font-size: 2rem;}
     border-radius: 3rem;
 }
 .main_mobile .mask {
-    width: calc(var(--unit) * 1.5);
-    height: calc(var(--row) * 13 + 1rem);
+    width: calc(var(--unit) * 1.35);
+    height: calc(var(--row) * 13 - 5px);
     overflow: hidden;
     background-color: gray;
-    border-radius: 3rem;
+    border-radius: 2rem;
+    position: absolute; 
+    z-index: 9999; 
+    left:1rem; 
+    top:.8rem;
 }
-.main_mobile img {
-    width: calc(var(--unit) * 1.5);
-    border-radius: 3rem;
+.main_mobile .screen { 
+    width:100%; 
 }
-.main_mobile > img {
+.main_mobile .m_device { 
+    width: calc(var(--unit) * 1.5); 
+    border-radius: 3rem; 
     position: absolute;
-    z-index: 999;
 }
 
 /* 우측 설명 */
@@ -395,6 +435,10 @@ nav .menu a {font-size: 2rem;}
 .team .screen, .team .text_box {
     margin-left: var(--unit);
 }
+@media (max-width: 1200px) {
+    .team .screen {margin-left: 0;}
+    .team .text_box {margin-left: 5rem;}
+}
 
 .team .main_screen {
     width: 100%;
@@ -456,7 +500,7 @@ nav .menu a {font-size: 2rem;}
 ==================================== */
 .design h3 {
     text-align: center;
-    line-height: calc(var(--row) * 5);
+    padding-top: calc(var(--row) * 2);
 }
 .design .inner {
     justify-content: center;
@@ -467,6 +511,7 @@ nav .menu a {font-size: 2rem;}
     position: relative;
     width: var(--unit4);
     height: calc(var(--row) * 10);  
+    padding-top: calc(var(--row) * 2);
 }
 
 .design .art {
@@ -474,13 +519,12 @@ nav .menu a {font-size: 2rem;}
     height: calc(var(--row) * 10);
     background-color: gray;
     position: relative;
-    /* top: calc(var(--row) * 5); */
     border-radius: 2rem;
+    transition: all 0.3s;
 }
 .design .art:hover {
     box-shadow: var(--shadow3);
     transform: translateY(-5px) translateX(-5px);
-    transition: all 0.3s;
 }
 
 .design .para {
@@ -493,7 +537,52 @@ nav .menu a {font-size: 2rem;}
     left: var(--unit);
     bottom: calc(var(--row) * -1);
 }
+.design .para p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 /* ====================================
     ======= contact ======    
+==================================== */
+.contact {
+    position: absolute;
+    bottom: calc(var(--row) * -6);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 1.75;
+    transition: all 0.3s;
+}
+.contact h2 {
+    font-weight: 400;
+    line-height: calc(var(--row) * 4);
+}
+.contact h4 {
+    margin-bottom: var(--row);
+}
+
+.contact .my {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.contact .call, .contact .mail {
+    gap: 1rem;
+    letter-spacing: 3px;
+}
+.contact .fa-solid {
+    margin-top: 1.6rem;
+    transform: scale(1.3);
+}
+
+.contact:hover {
+    box-shadow: var(--shadow3);
+}
+
+/* ====================================
+    ======= footer ======    
 ==================================== */

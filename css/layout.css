@@ -45,11 +45,18 @@ nav {
 .design {
     width: 100%;
     height: calc(var(--row) * 30);
-    background-color: lightcoral;
+    background-color: var(--bg-gray6);
 }
 
 .contact {
-    width: var(--unit10);
+    width: 100%;
+    max-width: var(--unit10);
     height: calc(var(--row) * 15);
-    background-color: lightblue;
+    background-color: var(--hue2);
+}
+
+footer {
+    width: 100%;
+    height: calc(var(--row) * 12);
+    background-color: var(--t-gray3);
 }
