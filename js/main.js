@@ -3,7 +3,7 @@ const lottie = bodymovin.loadAnimation({
     container: $('header #logo')[0],
     renderer: 'svg', 
     loop: true,
-    autopaly: true,
+    autoplay: true,
     path: '../source/lottie/logo.json', 
 });
 

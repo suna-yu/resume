@@ -17,9 +17,10 @@ nav h1 > a {
     position: relative;
 }
 nav h1 .lg_txt {
-    color: black, #F3F4F6;
+    color: #F3F4F6;
     position: absolute;
-    top: 0;
+    top: 1.7rem;
+    left: 1.2rem;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 12px;
