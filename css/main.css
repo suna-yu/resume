@@ -562,6 +562,10 @@ nav .menu a {font-size: 2rem;}
     transform: translateY(-50%);
 }
 
+.design .des1 .art {background: url(../source/book.jpg);}
+.design .des2 .art {background: url(../source/cafe_new.jpg);}
+.design .des3 .art {background: url(../source/cafe_new.jpg);}
+
 /* ====================================
     ======= contact ======    
 ==================================== */

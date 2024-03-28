@@ -4,7 +4,7 @@ const lottie = bodymovin.loadAnimation({
     renderer: 'svg', 
     loop: true,
     autoplay: true,
-    path: '../../source/lottie/logo.json', 
+    path: 'source/lottie/logo.json', 
 });
 
 // 메인비주얼 패럴렉스
