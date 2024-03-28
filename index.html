@@ -15,7 +15,10 @@
         <nav>
             <div class="inner df pr">
                 <h1>
-                    <a href="#">logo</a>
+                    <a href="#">
+                        <div id="logo"></div>
+                        <div class="lg_txt">sunA</div>
+                    </a>
                 </h1>
                 <ul class="menu">
                     <li><a href="#about_me">ABOUT ME</a></li>
@@ -50,16 +53,16 @@
                 </div>
                 <div class="person pr">
                     <div class="profile_img">
-                        <img src="./source/profile_img.png" alt="profile_img">
+                        <img src="./source/profile_img.png" alt="profile_img" data-value="2">
                     </div>
                     <div class="left_img">
                         <!-- <img src="./source/icon/left1.png" alt="1" class="left1">
                         <img src="./source/icon/left2.png" alt="2" class="left2"> -->
-                        <img src="./source/icon/left3.png" alt="3" class="left3">
+                        <img src="./source/icon/left3.png" alt="5" class="left3" data-value="-2">
                         <!-- <img src="./source/icon/left3-1.png" alt="4" class="left3-1"> -->
                     </div>
                     <div class="right_img">
-                        <img src="./source/icon/right1.png" alt="1" class="right1">
+                        <img src="./source/icon/right1.png" alt="1" class="right1" data-value="-5">
                         <!-- <img src="./source/icon/right2.png" alt="2" class="right2">
                         <img src="./source/icon/right3.png" alt="3" class="right3"> -->
                     </div>
@@ -179,17 +182,17 @@
                     <h4>Portfolio — 02</h4>
                     <h2>오뚜기</h2>
                     <h5>#HTML #CSS #JS #JQuery #SCSS</h5>
-                    <p class="explan">반응형으로 제작한 두번째 프로젝트입니다. 스킵 메뉴를 적용하여 웹접근성을 맞추었고, 자바스크립트로 다양한 동적 효과들을 적용하며 함수를 익힐 수 있었습니다. 외부에서 데이터를 받아와 매번 새로운 레시피를 제공하도록 하였습니다. 탑버튼과 사이트맵을 구현하였으며, 반응형으로 만들어 편의성을 높였습니다.</p>
+                    <p class="explan">반응형으로 제작한 두번째 프로젝트입니다. 스킵 메뉴를 적용하여 웹접근성을 맞추었고, 자바스크립트로 다양한 동적 효과들을 적용하며 함수를 익힐 수 있었습니다. 탑버튼과 사이트맵을 구현하였으며, 반응형으로 만들어 편의성을 높였습니다.</p>
                     <h5>제작기간: 2주</h5>
                     <div class="btn df pr">
                         <div class="btn_post">
-                            <a href="#">기획서</a>
+                            <a href="#" target="_blank">기획서</a>
                         </div>
                         <div class="btn_github">
-                            <a href="#">깃허브</a>
+                            <a href="https://github.com/suna-yu/project2" target="_blank">깃허브</a>
                         </div>
                         <div class="btn_site">
-                            <a href="#">사이트</a>
+                            <a href="https://suna-yu.github.io/project2/" target="_blank">사이트</a>
                         </div>
                     </div>
                 </div>
@@ -217,7 +220,7 @@
                     <div class="text">03</div>
                     <div class="main_screen pc pr">
                         <div class="mask pa">
-                            <img src="" alt="project3" class="screen">
+                            <img src="./source/suna-yu.github.io_project3_.png" alt="project3" class="screen">
                         </div>
                         <img src="./source/pc_screen.jpg" alt="" class="pc_device">
                     </div>
@@ -231,13 +234,13 @@
                     <h5>제작기간: 2일</h5>
                     <div class="btn df">
                         <div class="btn_post">
-                            <a href="" target="_blank">기획서</a>
+                            <a href="#" target="_blank">기획서</a>
                         </div>
                         <div class="btn_github">
-                            <a href="" target="_blank">깃허브</a>
+                            <a href="https://github.com/suna-yu/project3" target="_blank">깃허브</a>
                         </div>
                         <div class="btn_site">
-                            <a href="" target="_blank">사이트</a>
+                            <a href="https://suna-yu.github.io/project3/" target="_blank">사이트</a>
                         </div>
                     </div>
                 </div>
@@ -249,8 +252,9 @@
                 <div class="df">
                     <div class="main_screen">
                         <div class="screen pr">
-                            <img src="./source/icon/icon1.jpg" alt="1" class="icon pa">
+                            <img src="./source/teamPj_logo.png" alt="team" class="spl">
                         </div>
+                        <img src="./source/icon/icon1.jpg" alt="1" class="icon pa">
                         <div class="btn df">
                             <div class="btn_resume">
                               <a href="#">이력서</a>
@@ -310,6 +314,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
