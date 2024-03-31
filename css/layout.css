@@ -9,7 +9,6 @@ nav {
 .main_visual {
     width: 100%;
     height: calc(var(--row) * 32); 
-    /* background-color: lightblue; */
 }
 .main_visual .text {
     width: 100%;

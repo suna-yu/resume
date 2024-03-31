@@ -43,7 +43,7 @@ nav .menu a {font-size: 2rem;}
     opacity: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .menu {opacity: 0;}
     .fa-solid.fa-bars {opacity: 1;}
 }
@@ -127,11 +127,12 @@ nav .menu a {font-size: 2rem;}
     z-index: 999;
     transition: all 0.2s;
 }
-
-.left_img .left1 {top: 12rem; left: -10rem;}
-.left_img .left2 {top: 55rem; left: -10rem;}
-.left_img .left3 {top: 75rem; transform: scale(1); z-index: 1;}
-.left_img .left3-1 {top: 73rem; left: 8rem;}
+.left_img .left3 {
+    top: 72rem; 
+    left: -13rem;
+    transform: scale(1); 
+    z-index: 1;
+}
 
 .right_img {
     position: absolute; 
@@ -143,33 +144,167 @@ nav .menu a {font-size: 2rem;}
     transform: scale(0.7);
     transition: all 0.2s;
 }
-.right_img .right1 {top: 20rem; left: 45rem; transform: scale(1)}
-.right_img .right2 {top: 35rem; left: 40rem;}
-.right_img .right3 {top: 65rem; left: 30rem;}
+.right_img .right1 {
+    top: 20rem; 
+    left: 50rem; 
+    transform: scale(1)
+}
+
+.person .circ {
+    width: 2rem;
+    height: 2rem;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+}
+.left_img .circ:first-child {
+    background-color: var(--accent1);
+    left: 0rem;
+    top: 17rem;
+}
+.left_img .circ:nth-of-type(2) {
+    background-color: var(--accent2);
+    left: 12rem;
+    top: 40rem;
+    width: 3rem;
+    height: 3rem;
+}
+.right_img .circ {
+    background-color: var(--accent4);
+    left: 55rem;
+    top: 55rem;
+}
+
 
 @media (max-width: 1350px) {
     .right_img {left: -1.5rem;}
+    .left_img .left3 {
+        top: 72rem; 
+        left: -10rem;
+    }
+    .left_img .circ:first-child {
+        left: 0rem;
+        top: 17rem;
+    }
+    .left_img .circ:nth-of-type(2) {
+        left: 5rem;
+        top: 40rem;
+    }
+    .right_img .circ {
+        left: 50rem;
+        top: 60rem;
+    }
 }
 @media (max-width: 1250px) {
     .main_visual .profile_img {transform: scale(0.8);}
     .left_img > img {transform: scale(0.6);}
-    .left_img .left1 {top: 20rem; left: -8rem;}
-    .left_img .left2 {top: 50rem; left: -10rem;}
-    .left_img .left3 {top: 65rem; transform: scale(1); z-index: 1;}
-    .left_img .left3-1 {top: 63rem; left: 8rem; transform: scale(0.8)}
-
+    .left_img .left3 {
+        top: 63rem; 
+        left: 2rem;
+        transform: scale(1); 
+        z-index: 1;}
     .right_img > img {transform: scale(0.6);}
     .right_img .right1 {top: 25rem; left: 42rem; transform: scale(1)}
-    .right_img .right2 {top: 35rem; left: 38rem;}
-    .right_img .right3 {top: 65rem; left: 25rem;}
+    .left_img .circ:first-child {
+        left: 5rem;
+        top: 25rem;
+    }
+    .left_img .circ:nth-of-type(2) {
+        left: 10rem;
+        top: 40rem;
+    }
+    .right_img .circ {
+        left: 45rem;
+        top: 55rem;
+    }
 }
 
 @media (max-width: 1150px) {
     .left_img > img {transform: scale(0.5);}
     .right_img > img {transform: scale(0.5);}
-    .right_img > .right1 {top: 20rem; left: 38rem; transform: scale(0.8)}
-    .right_img > .right2 {top: 30rem; left: 33rem;}
-    .right_img > .right3 {top: 60rem; left: 25rem;}
+    .left_img .left3 {
+        top: 58rem; 
+        left: 0rem;
+    }
+    .right_img > .right1 {
+        top: 23rem; 
+        left: 38rem; 
+        transform: scale(0.8)}
+    .left_img .circ:first-child {
+        left: 5rem;
+        top: 20rem;
+    }
+    .left_img .circ:nth-of-type(2) {
+        left: 8rem;
+        top: 35rem;
+    }
+    .right_img .circ {
+        left: 40rem;
+        top: 55rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main_visual {
+        height: calc(var(--row) * 45);
+    }
+    .main_visual .inner {
+        flex-direction: column;
+        width: 100%;
+        max-width: 62rem;
+    }
+    .main_visual .text {
+        text-align: center;
+        padding-top: 20%;
+    }
+    .main_visual .btn {justify-content: center;}
+    .main_visual .person .profile_img {
+        padding-top: 0;
+        left: 5rem;
+    }
+    .left_img .left3 {
+        top: 55rem; 
+        left: 5rem;
+    }
+    .right_img .right1 {
+        top: 15rem; 
+        left: 50rem; 
+    }
+    .left_img .circ:first-child {
+        left: 13rem;
+        top: 17rem;
+    }
+    .left_img .circ:nth-of-type(2) {
+        left: 17rem;
+        top: 30rem;
+    }
+    .right_img .circ {
+        left: 55rem;
+        top: 55rem;
+    }
+}
+@media (max-width: 600px) {
+    .left_img .left3 {
+        top: 40rem; 
+        left: 5rem;
+    }
+    .right_img .right1 {
+        top: 12rem; 
+        left: 40rem; 
+    }
+    .left_img .circ:first-child {
+        left: 10rem;
+        top: 10rem;
+    }
+    .left_img .circ:nth-of-type(2) {
+        left: 13rem;
+        top: 24rem;
+    }
+    .right_img .circ {
+        left: 40rem;
+        top: 40rem;
+    }
 }
 
 /* ====================================
@@ -229,7 +364,8 @@ nav .menu a {font-size: 2rem;}
     ======= skill ======    
 ==================================== */
 .skill_box {
-    width: var(--unit7);
+    width: 100%;
+    max-width: var(--unit7);
     height: calc(var(--row) * 18);
     background-color: var(--accent3);
     color: white;
@@ -247,24 +383,46 @@ nav .menu a {font-size: 2rem;}
 .skill .point {
     font-size: 6.2rem; 
 }
-.skill .title {
+.skill .title {font-size: 2rem;}
+.skill_box .text > div {
+    width: 10rem;
+    height: 15rem;
     text-align: center; 
-    font-size: 2rem;
 }
 
 .skill .text1 {
     justify-content: space-evenly; 
-    /* margin-bottom: var(--row); */
-    --p: 0;
 }
 .skill .text2 {
     justify-content: space-around;
-    --p: 0;
 }
 
 .skill_box:hover {
     box-shadow: var(--shadow3);
     transform: translateY(12rem) translateX(-1rem);
+}
+
+@media (max-width: 1000px) {
+    .skill {
+        height: calc(var(--row) * 40);
+    }
+    .skill_box {
+        width: 100%;
+        height: auto;
+    }
+    .skill_box .text {
+        flex-wrap: wrap; 
+        justify-content: space-evenly;
+    }
+    .skill_box .text > div {
+        width: 100%;
+        max-width: 30rem;
+    }
+}
+@media (max-width: 600px) {
+    .skill_box .text > div {
+        width: 20rem;
+    }
 }
 
 /* ====================================
@@ -282,16 +440,6 @@ nav .menu a {font-size: 2rem;}
     max-width: var(--unit5);
     height: 100%;
     flex: 5 1 0;
-}
-
-@media (max-width: 1000px) {
-    .portfolio .port, .portfolio .text_box {
-        width: 50%;
-    }
-    .case1 .port, .case3 .port {margin-right: 1rem;}
-    .case1 .text_box, .case3 .text_box {margin-left: 1rem;}
-    .case2 .port {margin-left: 1rem;}
-    .case2 .text_box {margin-right: 1rem;}
 }
 
 /* port */
@@ -433,6 +581,38 @@ nav .menu a {font-size: 2rem;}
     color: white;
 }
 
+@media (max-width: 1000px) {
+    .portfolio .inner {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .portfolio {
+        height: 140rem;
+        margin-bottom: 10rem;
+    }
+    .case1 .inner, .case3 .inner{
+        width: fit-content;
+    }
+    .case1 .text_box, .case3 .text_box {
+        padding-top: 0;
+    }
+    .case2 .inner {
+        width: 100%;
+        max-width: 62rem;
+    }
+    .case2 .text_box {
+        position: absolute;
+        top: 70rem;
+        width: 100%;
+        height: auto;
+    }
+    .portfolio .text_box .btn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 /* ====================================
     ======= team project ======    
 ==================================== */
@@ -512,6 +692,29 @@ nav .menu a {font-size: 2rem;}
     text-align: center;
     transition: all 0.2s;
     margin-top: var(--row);
+}
+
+@media (max-width: 800px) {
+    .team {height: calc(var(--row) * 42);}
+    .team .inner {width: 62rem;}
+    .team .inner .df {
+        flex-direction: column;
+    }
+    .team .icon {
+        left: 59rem;
+        top: 45%;
+    }
+    .team .main_screen .btn {
+        position: absolute;
+        flex-direction: row;
+        margin-left: 0;
+        bottom: -50rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .team .text_box {
+        margin-top: 5rem;
+    }
 }
 
 /* ====================================

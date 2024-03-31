@@ -11,6 +11,12 @@ const lottie = bodymovin.loadAnimation({
 $(document).on('mousemove', function(e) {
     $('.main_visual .person img').each(function() {
         const pos = $(this).data('value');
+        const x = (window.innerWidth - e.pageX * pos) / 100;
+        const y = (window.innerHeight - e.pageY * pos) / 100;
+        $(this).css('transform', `translateX(${x}px) translateY(${y}px)`);
+    });
+    $('.main_visual .person .circ').each(function() {
+        const pos = $(this).data('value');
         const x = (window.innerWidth - e.pageX * pos) / 90;
         const y = (window.innerHeight - e.pageY * pos) / 90;
         $(this).css('transform', `translateX(${x}px) translateY(${y}px)`);
