@@ -1,6 +1,41 @@
 @import url(./reset.css);
 @import url(./layout.css);
 
+.followAnimation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 5rem;
+    will-change: transform;
+    transform: translate(0, 0);
+    width: 5rem;
+    height: 5rem;
+    user-select: none;
+    pointer-events: none;
+    cursor: none;
+    z-index: 99999;
+}
+
+#top {
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--accent1);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10vh;
+    right: 10vw;
+    z-index: 9999;
+    color: white;
+    cursor: pointer;
+}
+#top > .fa-solid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* header */
 nav { 
     position: absolute; 
     left: 0rem; 
@@ -43,10 +78,6 @@ nav .menu a {font-size: 2rem;}
     opacity: 0;
 }
 
-@media (max-width: 1000px) {
-    .menu {opacity: 0;}
-    .fa-solid.fa-bars {opacity: 1;}
-}
 
 /* ====================================
     ======= main_visual ======    
@@ -63,6 +94,7 @@ nav .menu a {font-size: 2rem;}
     padding-top: 18%; 
 }
 .main_visual .text h3 {color: var(--accent1);}
+
 @media (min-width: 1300px) {
     .main_visual .text {
         margin-right: var(--unit);
@@ -343,7 +375,7 @@ nav .menu a {font-size: 2rem;}
 }
 .about_me img {
     position: absolute;
-    width: 400px;
+    width: 600px;
     height: auto;
     bottom: calc(var(--row) * -8);
     right: var(--unit);
@@ -451,6 +483,7 @@ nav .menu a {font-size: 2rem;}
     opacity: 0.2;
     line-height: 1;
     right: 0;
+    user-select: none;
 }
 .port .main_screen {
     width: 100%;
@@ -696,12 +729,15 @@ nav .menu a {font-size: 2rem;}
 
 @media (max-width: 800px) {
     .team {height: calc(var(--row) * 42);}
-    .team .inner {width: 62rem;}
+    .team .inner {
+        width: 100%;
+        max-width: 62rem;
+    }
     .team .inner .df {
         flex-direction: column;
     }
     .team .icon {
-        left: 59rem;
+        left: 60%;
         top: 45%;
     }
     .team .main_screen .btn {
@@ -714,7 +750,10 @@ nav .menu a {font-size: 2rem;}
     }
     .team .text_box {
         margin-top: 5rem;
+        margin-left: 0;
+        width: 100%;
     }
+    .team .screen {width: 95%;}
 }
 
 /* ====================================
@@ -769,6 +808,33 @@ nav .menu a {font-size: 2rem;}
 .design .des2 .art {background: url(../source/cafe_new.jpg);}
 .design .des3 .art {background: url(../source/cafe_new.jpg);}
 
+.design .open {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: auto;
+    z-index: 999;
+}
+.design .open > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.design .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    padding: 7px 14px;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 /* ====================================
     ======= contact ======    
 ==================================== */
@@ -786,6 +852,7 @@ nav .menu a {font-size: 2rem;}
 .contact h2 {
     font-weight: 400;
     line-height: calc(var(--row) * 4);
+    padding-top: var(--row);
 }
 .contact h4 {
     margin-bottom: var(--row);
@@ -810,5 +877,133 @@ nav .menu a {font-size: 2rem;}
 }
 
 /* ====================================
-    ======= footer ======    
+    ======= 모바일 반응형 메뉴 ======    
 ==================================== */
+.ham {
+    position: absolute;
+    right: 2rem;
+    top: 3rem;
+    cursor: pointer;
+    z-index: 999999;
+}
+.ham_menu {
+    display: none;
+    position: absolute;
+}
+.nav-checkbox {
+    display: none;
+  }
+.nav-button {
+    background-color: #F3F4F6;
+    width: 7rem;
+    height: 6rem;
+    position: fixed;
+    top: 3rem;
+    right: 2rem;
+    cursor: pointer;
+    border-radius: 2px;
+    text-align: center;
+    transition: all 0.3s;
+    z-index: 999999; 
+  }
+.nav-button:hover {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+.nav-bg {
+    background-color: #F3F4F6;
+    position: fixed;
+    z-index: 999;
+    width: 7rem;
+    height: 6rem;
+    top: 3rem;
+    right: 2rem;
+    border: 2px;
+    transition: all 0.8s;
+  }
+.nav-checkbox:checked ~ .nav-bg {
+    transform: scale(80);
+  }
+.nav-icon {
+    position: relative;
+    margin-top: 3rem;
+  }
+.nav-icon, .nav-icon:before, .nav-icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: #333;
+    display: inline-block;
+  }
+  .nav-icon:before, .nav-icon::after {
+    content: "";
+    position: absolute;
+    transition: all 0.2s;
+    left: 0;
+  }
+  .nav-icon:before {
+    top: -0.8rem;
+  }
+  .nav-icon::after {
+    top: 0.8rem;
+  }
+  .nav-button:hover .nav-icon:before {
+    top: -1rem;
+  }
+  .nav-button:hover .nav-icon:after {
+    top: 1rem;
+  }
+  .nav-checkbox:checked ~ .nav-button .nav-icon {
+    background-color: transparent;
+  }
+  .nav-checkbox:checked ~ .nav-button .nav-icon:before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+  .nav-checkbox:checked ~ .nav-button .nav-icon:after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+  .nav-body {
+    position: fixed;
+    top: 0;
+    left: -120%;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1500;
+    transition: 0.8s;
+  }
+  .nav-list {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .nav-link {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: var(--accent1);
+    text-decoration: none;
+    transition: all 0.4s;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, var(--accent1) 50%);
+    background-size: 250%;
+  }
+  .nav-link:hover {
+    color: white;
+    background-position: 100%;
+    transform: translateX(1rem);
+  }
+  .nav-checkbox:checked ~ .nav-body {
+    opacity: 1;
+    left: 0;
+  }
+
+@media (max-width: 1000px) {
+    .menu {opacity: 0;}
+    .ham.open {
+        display: block;
+    }
+}

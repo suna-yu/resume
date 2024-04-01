@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <div class="followAnimation"></div>
+    <div id="top"><i class="fa-solid fa-chevron-up"></i></div>
     <header>
         <nav>
             <div class="inner df pr">
@@ -28,20 +30,39 @@
                     <li><a href="#design">DESIGN</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-                <div class="ham">
-                    <i class="fa-solid fa-bars"></i>
-                    <ul class="ham_menu">
-                        <li><a href="#about_me">ABOUT ME</a></li>
-                        <li><a href="#skill">SKILL</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#design">DESIGN</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
             </div>
         </nav>
     </header>
     <main class="pr">
+        <div class="ham">
+            <input type="checkbox" class="nav-checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-button">
+              <span class="nav-icon">&nbsp;</span>
+            </label>
+            <div class="nav-bg">&nbsp;</div>
+            <div class="nav-body">
+              <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about_me" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skill" class="nav-link">SKILL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#design" class="nav-link">DESIGN</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+        </div>
         <div class="main_visual">
             <div class="inner df pr">
                 <div class="text">
@@ -108,7 +129,7 @@
                     </p>
                 </div>
                 <div class="circle"></div>
-                <img src="./source/유선아_1.png" alt="profile_img">
+                <img src="./source/유선아_2.png" alt="profile_img">
             </div>
         </div>            
         <div class="skill" id="skill">
@@ -268,7 +289,7 @@
                               <a href="#">기획서</a>
                             </div>
                             <div class="btn_git">
-                              <a href="https://github.com/suna-yu" target="_blank">깃허브</a>
+                              <a href="https://github.com/suna-yu" target="_blank">프로토타입</a>
                             </div>
                         </div>
                     </div>
@@ -289,15 +310,18 @@
                     <div class="art">
                         <div class="para"><p class="h6">북디자인</p></div>
                     </div>
+                    <div class="open open1">
+                        <img src="./source/book.jpg" alt="book">
+                        <div class="close">close</div>
+                    </div>
                 </div>
                 <div class="des des2">
                     <div class="art">
                         <div class="para"><p class="h6">카페 배너</p></div>
                     </div>
-                </div>
-                <div class="des des3">
-                    <div class="art">
-                        <div class="para"><p class="h5">디자인3</p></div>
+                    <div class="open open2">
+                        <img src="./source/cafe_new.jpg" alt="cafe_banner">
+                        <div class="close">close</div>
                     </div>
                 </div>
             </div>

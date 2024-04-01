@@ -7,6 +7,50 @@ const lottie = bodymovin.loadAnimation({
     path: './source/lottie/logo.json', 
 });
 
+// 햄버거메뉴
+$('.ham').on('click', function () {
+	$('.ham').toggleClass('open');
+});
+$('.nav-link').on('click', () => {
+    $('#nav-toggle').prop('checked', false);
+})
+
+// top
+$('#top').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, 'smooth');
+});
+
+// 마우스트레일
+const $tg = $('.followAnimation');
+let mouseX = 0;
+let mouseY = 0;
+
+$(document).on('mousemove', function(e) {
+    mouseX = `${e.clientX - 25}px`;
+    mouseY = `${e.clientY - 25}px`;
+    gsap.to($tg, 0.5, {left: mouseX, top: mouseY});
+});
+
+$('section p').each(function() {
+    let style = $(this).attr('class');
+    $(this).on('mouseover', function() {
+        $tg.addClass(style);
+    });
+    $(this).on('mouseout', function() {
+        $tg.removeClass(style);
+    });
+});
+
+// 마우스 트레일 로티
+const lottie2 = bodymovin.loadAnimation({
+    container: $('.followAnimation')[0],
+    renderer: 'svg', 
+    loop: true,
+    autoplay: true,
+    path: './source/lottie/mouse.json', 
+});
+
 // 메인비주얼 패럴렉스
 $(document).on('mousemove', function(e) {
     $('.main_visual .person img').each(function() {
@@ -84,8 +128,22 @@ ScrollTrigger.create({
         pcM2.mouseleave(function() { anidown(pcS2); });
         pcM3.mouseenter(function() { aniup(pcM3, pcS3); });
         pcM3.mouseleave(function() { anidown(pcS3); });
-        // 내려가는 화면이 제일 위에 올라와 있어야 함!! 
         mM1.mouseenter(function() { aniup(mM1, mS1); });
         mM1.mouseleave(function() { anidown(mS1); });
     }
 });
+
+// 디자인 팝업
+$('.des1 > .art').on('click', function () {
+	$('.open1').show();
+});
+$('.close').on('click', function () {
+	$('.open1').hide();
+});
+$('.des2 > .art').on('click', function () {
+	$('.open2').show();
+});
+$('.close').on('click', function () {
+	$('.open2').hide();
+});
+
