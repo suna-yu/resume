@@ -93,6 +93,25 @@ skill.forEach((el) => {
     }, 0 )
 })
 
+// 포트폴리오 gsap
+const fn2 = () => {
+	gsap.utils.toArray('.portfolio').forEach((item) => {
+		gsap.to(item, {
+			y: -50,
+			ease: 'none',
+            delay: 5,
+			duration: 2,
+			scrollTrigger: {
+				trigger: item,
+				start: 'top bottom',
+				end: ' bottom top',
+				scrub: 0.5,
+			},
+		});
+	});
+};
+fn2();
+
 // 화면 안 슬라이드
 const pcS1 = $('.case1 .main_screen .screen');
 const pcM1 = $('.case1 .main_screen .mask');

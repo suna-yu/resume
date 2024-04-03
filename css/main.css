@@ -664,30 +664,31 @@ nav .menu a {font-size: 2rem;}
 .team .main_screen {
     width: 100%;
     max-width: var(--unit7);
-    flex: 7 1 0;
+    flex: 1 1 0;
     position: relative;
 }
 
-.team .screen {
-    width: 100%;
-    max-width: var(--unit5);
-    height: calc(var(--row) * 14);
+.team .m_device {
+    height: 48rem;
+    border-radius: 3rem; 
+    position: absolute;
+    right: 0;
+}
+.team .main_screen .mask {
+    width: calc(var(--unit) * 1.72);
+    height: calc(var(--row) * 16.5);
+    overflow: hidden;
     background-color: gray;
     border-radius: 2rem;
-    transition: all 0.3s;
-    overflow: hidden; 
-    border: 1px solid #333;
+    position: absolute; 
+    z-index: 99; 
+    right: 1.2rem;
+    top: 1rem;
 }
-.team .screen:hover {
-    box-shadow: var(--shadow3);
-    transform: translateY(-5px) translateX(-5px);
-}
-
-.team .screen .spl {
-    position: absolute;
+.team .mask iframe {
+    position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: calc(var(--row) * 18.7);
 }
 
 .team .icon {
@@ -699,7 +700,7 @@ nav .menu a {font-size: 2rem;}
 /* text box */
 .team .text_box {
     line-height: 175%;
-    flex: 5 1 0;
+    flex: 1 1 0;
 }
 
 .team .text_box h2+h5 {
@@ -715,7 +716,6 @@ nav .menu a {font-size: 2rem;}
 .team .btn {
     gap: var(--gu);
     justify-content: center;
-    margin-left: var(--unit);
 }
 .team .btn > div {
     border-radius: 4rem; 
@@ -814,8 +814,8 @@ nav .menu a {font-size: 2rem;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
-    height: auto;
+    width: auto;
+    height: 80%;
     z-index: 999;
 }
 .design .open > img {
