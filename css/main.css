@@ -688,7 +688,7 @@ nav .menu a {font-size: 2rem;}
 .team .mask iframe {
     position: relative;
     width: 100%;
-    height: calc(var(--row) * 18.5);
+    height: calc(var(--row) * 16.5);
     border: none;
 }
 
