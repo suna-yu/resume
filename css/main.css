@@ -37,10 +37,13 @@
 
 /* header */
 nav { 
-    position: absolute; 
+    position: fixed; 
     left: 0rem; 
     top: 0rem;  
     z-index: 999;
+    background: rgba(243, 244, 246, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 9999;
 } 
 nav h1 > a { 
     display: block;
@@ -653,9 +656,6 @@ nav .menu a {font-size: 2rem;}
     text-align: center;
     line-height: calc(var(--row) * 6);
 }
-.team .screen, .team .text_box {
-    margin-left: var(--unit);
-}
 @media (max-width: 1200px) {
     .team .screen {margin-left: 0;}
     .team .text_box {margin-left: 5rem;}
@@ -663,32 +663,36 @@ nav .menu a {font-size: 2rem;}
 
 .team .main_screen {
     width: 100%;
+    height: 50rem;
     max-width: var(--unit7);
     flex: 1 1 0;
     position: relative;
+    
 }
 
 .team .m_device {
-    height: 48rem;
+    height: 55rem;
     border-radius: 3rem; 
     position: absolute;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .team .main_screen .mask {
-    width: calc(var(--unit) * 1.72);
-    height: calc(var(--row) * 16.4);
+    width: calc(var(--unit) * 1.96);
+    height: calc(var(--row) * 18.8);
     overflow: hidden;
     background-color: gray;
-    border-radius: 2rem;
+    border-radius: 3rem;
     position: absolute; 
     z-index: 99; 
-    right: 1.2rem;
-    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.2rem;
 }
 .team .mask iframe {
     position: relative;
     width: 100%;
-    height: calc(var(--row) * 16.5);
+    height: calc(var(--row) * 19);
     border: none;
 }
 
@@ -707,11 +711,11 @@ nav .menu a {font-size: 2rem;}
 .team .text_box h2+h5 {
     line-height: calc(var(--row) * 4);
 }
-.team .text_box p {margin-bottom: var(--row);}
 .team .text_box h6 {
     color: var(--accent1);
-    margin-bottom: var(--row);
+    margin: var(--row) 0;
 }
+.team .text_box .h6 {line-height: 1.7;}
 
 /* 버튼 */
 .team .btn {
@@ -729,17 +733,22 @@ nav .menu a {font-size: 2rem;}
 }
 
 @media (max-width: 800px) {
-    .team {height: calc(var(--row) * 42);}
+    .team {height: calc(var(--row) * 53);}
     .team .inner {
         width: 100%;
         max-width: 62rem;
     }
-    .team .inner .df {
+    .team .inner > .df {
         flex-direction: column;
     }
     .team .icon {
         left: 60%;
         top: 45%;
+    }
+    .team .main_screen {padding-bottom: 60rem;}
+    .team .main_screen > div, .team .m_device {
+        left: 50%;
+        transform: translateX(-50%);
     }
     .team .main_screen .btn {
         position: absolute;

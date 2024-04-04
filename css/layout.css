@@ -38,7 +38,7 @@ nav {
 
 .team {
     width: 100%;
-    height: calc(var(--row) * 28);
+    height: calc(var(--row) * 30);
 }
 
 .design {
